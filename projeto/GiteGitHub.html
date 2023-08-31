@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="projeto/assetes/css/styles.css">
+    <link rel="stylesheet" href="projeto/assetes/img">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tutorial de Git e GitHub</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="container">
+                <h1>tutorial de Git e GitHub</h1>
+            </ul>
+        </nav>
+
+
+        </div>
+        <nav>
+            <ul class="menu">
+                <Li> <img src="projeto/assetes/img/1946488.png" width="20" height="25">
+                    <a href="index.html">HOME</a>
+                </Li>
+                <Li>
+                    <img src="projeto/assetes/img/hospedagem.png" width="25" height="30">
+                    <a href="Hospedagem.html">Hospedagem</a>
+                </Li>
+                <Li>
+                    <img src="projeto/assetes/img/tutorial.png" width="25" height="30">
+                    <a href="GiteGitHub.html">tutorial de Git e GitHub</a>
+                </Li>
+                <Li>
+                    <img src="projeto/assetes/img/git.png" width="25" height="30">
+                    <a href="GitHubPages.html">GitHub Pages</a>
+                </Li>
+                <Li>
+                    <img src="projeto/assetes/img/portifólio.png" width="25" height="30">
+                    <a href="Portifólo.html">Portifólo</a>
+                </Li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="texto">
+                <h1> Git </h1>
+                <h2 >Os Problemas</h2>
+                <p>Preciso voltar o arquivo na versão que estava
+                    antes - rollback - Ctrl+Z;</p>
+                    <p>Deleção de arquivo sem a possibilidade de
+                        recuperação;</p>
+                        <p>Cópias e mais copias de um arquivos:</p>
+                        <P>tcc.docx;    </P>
+                        <p>tcc-final.docx;     </p>
+                      
+                        <P>tcc-agora-vai.docx</P>
+                        <h2 > solução</h2>
+                        <h3  > Controle de Versão</h3>                       
+                        <P>Os sistemas de controle de versão são ferramentas de
+                            software que ajudam as equipes de software a
+                            gerenciar as alterações ao código-fonte ao longo do
+                            tempo;</P>
+                            <h2  > BitKeeper</h2>
+                            <p>Ferramenta de versionamento que começou a exigir
+                                pagamento das outras empresas de software para
+                                que fosse usada.</p>      
+                <h2 >o que é o Git</h2>
+                <p>O Git ferramenta de versionamento local, que salva o
+                    estado de cada arquivo na hora do versionamento e
+                    caso o arquivo não sofra a alteração ele cria um link
+                    simbólico para o arquivo não editado.</p>
+                    <img src="projeto/assetes/img/Capturar.PNG" alt="25">
+                 <h1>GitHub</h1>
+                            <p>Serviço web compartilhado para projetos que utilizam
+                                o Git para versionamento. É um local de
+                                armazenamento de código.
+                                </p>
+                                <img src="projeto/assetes/img/Capturar2.PNG" alt="25">
+                    <h2>Os Problemas</h2>
+                    <p>Como trabalhar em equipe, utilizando o
+                        controle do Git, para que tenhamos um
+                        controle de versão?
+                        </p>
+                        <p>Como compartilhar o conhecimento(o
+                            código fonte)</p>
+                            <h2>Branchs</h2>
+                            <p>É útil em situações nas quais você deseja
+                                adicionar um novo recurso ou corrigir um erro,
+                                gerando uma nova ramificação garantindo que o
+                                código instável não seja mesclado nos arquivos
+                                do projeto principal</p>
+                                <h2>Equipe</h2>
+                                <img src="projeto/assetes/img/tempsnip.png" alt="25">
+                                <a href="https://git-scm.com/downloads"><h2>Download - Instalação Git</h2></a>
+                                <h3>paso a paso da istalação</h3>
+                                <img src="projeto/assetes/img/4.png" alt="25">
+                                <img src="projeto/assetes/img/5.png" alt="25">
+                                <img src="projeto/assetes/img/6.png" alt="25">
+                                <img src="projeto/assetes/img/7.png" alt="25">
+                                <img src="projeto/assetes/img/8.png" alt="25">
+                                <h2>Verificação</h2>
+                                <h3>Abra o CMD, Terminal de Comando, Shell ou PowerShell</h3>
+                                   <h3>Digite git --version</h3> 
+                                   <img src="projeto/assetes/img/01.png" alt="25">
+                                   <h2>Configuração</h2>
+                                   <img src="projeto/assetes/img/02.png" alt="25">
+                                   <h2>Inicializando - Local</h2>
+                                   <img src="projeto/assetes/img/03.png" alt="25">
+                                   <h2>Crie uma conta no <a href="https://github.com/">GitHub</a></h2>
+                                   <h2>Pesquise sobre os seguintes comandos no Terminal de Comando (o que você abriu anteriormente) </h2>
+                                   <h3>Pesquise sobre os seguintes comandos:</h3>
+                                    <img src="projeto/assetes/img/09.PNG"alt="5">
+                                   <h2>vamos cofigurar o github</h2>
+                                   <h3>SSH - GitBash</h3>
+                                   <h3>Verificar se existe chave ssh.</h3>
+                                   <p>ls -al ~/.ssh</p>
+                                   <h3>Adicionar uma nova chave. (ID)</h3>
+                                   <p>ssh-keygen -t ed25519 -C "seu_email@examplo.com"</p>
+                                   <h3>Inicializar agente-ssh.</h3>
+                                   <P>eval "$(ssh-agent -s)"</P>
+                                   <h3>Adicionar chave ssh ao agente.</h3>
+                                   <p>ssh-add ~/.ssh/id_ed25519</p>
+                                   <h3>Copiar chave ssh.</h3>
+                                   <p>clip < ~/.ssh/id_ed25519.pub</p>
+                                   <h3>Adicionar chave no github</h3>
+                                   <P>Github -> Settings -> SSH and GPG keys -> New SSH key -> Colar</P>
+                                   <h6>*Coloque um título que identifique a chave*</h6>
+                                   <h3>Testar conexão</h3>
+                                   <p>ssh -T git@github.com</p>
+                                   <p>yes</p>
+                                   <h2>Iniciando um projeto</h2>
+                                  <p>Você foi contratado para desenvolver um programa WEB,
+                                    utilizando o git e github para versionamento.</p>
+                                    <P>O sistema irá conter uma página inicial de bem vindo.
+                                        Conterá uma segunda página, para implementação futura, de um
+                                        formulário.
+                                        </P>
+                                        <h2>Processo</h2>
+                                        <P>Inicializar um projeto - index e form;</P>
+                                            <p>Criar a branch dev - proteger contra deleção;</p>
+                                                <p>Melhorar o form e subir em feat;</p>
+                                                    <p>Merger feat em dev;</p>
+                                                        <p>Mergear dev em main;</p>
+                                                            <p>Realizar um revert;</p>
+                                                            <h2>Comandos</h2>
+                                                            <img src="projeto/assetes/img/09.PNG"alt="5">
+                                                            <h2>depois</h2>
+                                                            <p>Crie uma branch de DEV e bloqueie contra exclusão.</p>
+                                                            <p></p>
+                                                            <P>Após ajuste o formulário para enviar o nome e a
+                                                                senha de um usuário.</P>
+                                                                <h2>*NUNCA COMMITAR NA MAIN/MASTER/PROD*</h2>
+                                                                <h3>por isso abrimos branchs:</h3>
+                                                                <img src="projeto/assetes/img/08.PNG"alt="5">
+                                                                          
+ </ul>
+        </nav>
+    </header>
+    <footer><ul class="container2"> <p>&copy; 2023 karol</p></ul>
+       
+    </footer>
+</body>
+
+</html>
